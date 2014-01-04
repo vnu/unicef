@@ -1,0 +1,27 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: unicefkid_development
+  pool: 5
+  username: expenzo
+  password: expenzo
+  host: localhost
+  port: 5433
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: unicefkid_test
+  pool: 5
+  username: expenzo
+  password: expenzo
+  host: localhost
+  port: 5433
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: expenzo
+  pool: 5
+  username:
+  password:

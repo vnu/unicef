@@ -1,0 +1,199 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+	padding: 0;
+}
+
+.jumbotron {
+	background: none;
+}
+
+.welcome {
+	background: url(../images/bg_welcome.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.menu {
+	background: url(../images/bg_menu.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.menu .jumbotron {
+	background-size: cover;
+	height: 100%;
+	padding: 200px 50px;
+	text-align: center;
+}
+
+button {
+	display: block;
+	margin-bottom: 20px;
+	width: 100%;
+	background: #FD7B10;
+	color: #fff;
+	font-size: 30px;
+	border-radius: 20px;
+	font-family: 'Rum Raisin', sans-serif;
+	letter-spacing: 3px;
+}
+
+.signup {
+	background: url(../images/bg_signup.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.signup .jumbotron {
+	background: rgba(255, 165, 0, 0.9);
+	margin: 100px 30px;
+}
+
+.signup h1 {
+	color: white;
+	font-size: 70px;
+	text-shadow: 3px 3px 1px #c75a00;
+	font-family: 'Rum Raisin', sans-serif;
+	letter-spacing: 3px;
+	margin-top: 0;
+}
+
+.tweet {
+	background: url(../images/bg_tweet.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.thanks {
+	background: url(../images/bg_thanks.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.thanks .jumbotron {
+	background: rgba(255, 165, 0, 0.9);
+	margin: 10px 30px;
+	padding: 20px;
+}
+
+.thanks {
+	color: white;
+	font-size: 70px;
+	text-shadow: 3px 3px 1px #c75a00;
+	font-family: 'Rum Raisin', sans-serif;
+	letter-spacing: 3px;
+	margin-top: 0;
+}
+
+.tweet .bubble {
+	background: #fff;
+	border-radius: 10px;
+	margin-bottom: 0;
+	padding: 10px;
+}
+
+.tweet .arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	
+	border-top: 20px solid #fff;
+}
+
+.tweet form {
+	text-align: right;
+
+}
+
+.tweet form button {
+	width: auto;
+}
+
+@-webkit-keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
+.challenge { 
+ 	-webkit-animation: animatedBackground 15s linear 1;
+	animation: animatedBackground 15s linear 1;
+	background: url(../images/bg_forest.png) no-repeat center right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	position: relative;
+	text-align: center;
+}
+
+.challenge.door { 
+	background: url(../images/bg_door.jpg) no-repeat center right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.challenge .jumbotron p {
+	background: white;
+	border-radius: 7px;
+	padding: 7px;
+}
+.challenge .icon-finn-jake {
+	width: 350px;
+}
+.icon-finn-jake.walkUp {
+ 	-webkit-animation: finnAndJakeWalkUp 2s linear 1;
+	animation: finnAndJakeWalkUp 2s linear 1;
+}
+@-webkit-keyframes finnAndJakeWalkUp {
+	from { bottom: 0; }
+	to { bottom: 10px; }
+}
+@keyframes finnAndJakeWalkUp {
+	from { bottom: 0; }
+	to { bottom: 10px; }
+}
+.jumbotron .icon-finn-jake.walkDown {
+ 	-webkit-animation: finnAndJakeWalkDown 2s linear 1;
+	animation: finnAndJakeWalkDown 2s linear 1;
+}
+@-webkit-keyframes finnAndJakeWalkDown {
+	from { bottom: 10px; }
+	to { bottom: 0; }
+}
+@keyframes finnAndJakeWalkDown {
+	from { bottom: 10px; }
+	to { bottom: 0; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
